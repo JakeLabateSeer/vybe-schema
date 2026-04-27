@@ -1,0 +1,145 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.vybe.care#organization",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.vybe.care#logo",
+        "name": "Vybe Urgent Care logo",
+        "url": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg",
+        "contentUrl": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg"
+      },
+      "sameAs": [
+        "https://www.facebook.com/vybecare/",
+        "https://www.instagram.com/vybecare/",
+        "https://www.linkedin.com/company/vybecare/",
+        "https://globalphiladelphia.org/organizations/vybe-urgent-care",
+        "https://www.healthgrades.com/group-directory/pa-pennsylvania/philadelphia/vybe-urgent-care-xyntlt"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "@id": "https://www.vybe.care#contactpoint",
+        "url": "https://www.vybe.care",
+        "name": "Vybe Urgent Care contact point",
+        "telephone": "",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": [
+          "Arabic",
+          "English",
+          "Chinese",
+          "Dutch",
+          "French",
+          "German",
+          "Italian",
+          "Russian",
+          "Portuguese",
+          "Spanish"
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.vybe.care#website",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "publisher": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "@id": "https://www.vybe.care#searchaction",
+        "name": "Search",
+        "target": "https://www.vybe.care/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#webpage",
+      "url": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/",
+      "name": "High Fives Or Hands Off",
+      "description": "High Fives Or Hands Off | Vybe Urgent Care",
+      "isPartOf": {
+        "@id": "https://www.vybe.care#website"
+      },
+      "about": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#breadcrumb",
+      "url": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/blog/",
+          "item": "https://www.vybe.care/blog/",
+          "name": "Blog",
+          "position": 1
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/blog/2019/",
+          "item": "https://www.vybe.care/blog/2019/",
+          "name": "2019",
+          "position": 2
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/blog/2019/November/",
+          "item": "https://www.vybe.care/blog/2019/November/",
+          "name": "November",
+          "position": 3
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/blog/2019/November/27/",
+          "item": "https://www.vybe.care/blog/2019/November/27/",
+          "name": "27",
+          "position": 4
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/",
+          "item": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/",
+          "name": "High Fives Or Hands Off",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#blogposting",
+      "url": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/",
+      "name": "High Fives Or Hands Off",
+      "headline": "High Fives Or Hands Off",
+      "description": "High Fives Or Hands Off | Vybe Urgent Care",
+      "mainEntityOfPage": {
+        "@id": "https://www.vybe.care/blog/2019/November/27/high-fives-or-hands-off/#webpage"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://www.vybe.care#organization",
+        "url": "https://www.vybe.care",
+        "name": "Vybe Urgent Care"
+      },
+      "publisher": {
+        "@id": "https://www.vybe.care#organization"
+      }
+    }
+  ]
+}
