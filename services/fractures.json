@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.vybe.care#organization",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.vybe.care#logo",
+        "name": "Vybe Urgent Care logo",
+        "url": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg",
+        "contentUrl": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg"
+      },
+      "sameAs": [
+        "https://www.facebook.com/vybecare/",
+        "https://www.instagram.com/vybecare/",
+        "https://www.linkedin.com/company/vybecare/",
+        "https://globalphiladelphia.org/organizations/vybe-urgent-care",
+        "https://www.healthgrades.com/group-directory/pa-pennsylvania/philadelphia/vybe-urgent-care-xyntlt"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "@id": "https://www.vybe.care#contactpoint",
+        "url": "https://www.vybe.care",
+        "name": "Vybe Urgent Care contact point",
+        "telephone": "",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": [
+          "Arabic",
+          "English",
+          "Chinese",
+          "Dutch",
+          "French",
+          "German",
+          "Italian",
+          "Russian",
+          "Portuguese",
+          "Spanish"
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.vybe.care#website",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "publisher": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "@id": "https://www.vybe.care#searchaction",
+        "name": "Search",
+        "target": "https://www.vybe.care/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.vybe.care/services/fractures/#webpage",
+      "url": "https://www.vybe.care/services/fractures/",
+      "name": "Fractures",
+      "description": "Fractures | Vybe Urgent Care",
+      "isPartOf": {
+        "@id": "https://www.vybe.care#website"
+      },
+      "about": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://www.vybe.care/services/fractures/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.vybe.care/services/fractures/#breadcrumb",
+      "url": "https://www.vybe.care/services/fractures/",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/services/fractures/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/services/",
+          "item": "https://www.vybe.care/services/",
+          "name": "Services",
+          "position": 1
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/services/fractures/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/services/fractures/",
+          "item": "https://www.vybe.care/services/fractures/",
+          "name": "Fractures",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.vybe.care/services/fractures/#service",
+      "url": "https://www.vybe.care/services/fractures/",
+      "name": "Fractures",
+      "serviceType": "Fractures",
+      "description": "Fractures | Vybe Urgent Care",
+      "provider": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "@id": "https://www.vybe.care#administrativearea",
+        "name": "Greater Philadelphia Area"
+      }
+    }
+  ]
+}

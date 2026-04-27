@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.vybe.care#organization",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.vybe.care#logo",
+        "name": "Vybe Urgent Care logo",
+        "url": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg",
+        "contentUrl": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg"
+      },
+      "sameAs": [
+        "https://www.facebook.com/vybecare/",
+        "https://www.instagram.com/vybecare/",
+        "https://www.linkedin.com/company/vybecare/",
+        "https://globalphiladelphia.org/organizations/vybe-urgent-care",
+        "https://www.healthgrades.com/group-directory/pa-pennsylvania/philadelphia/vybe-urgent-care-xyntlt"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "@id": "https://www.vybe.care#contactpoint",
+        "url": "https://www.vybe.care",
+        "name": "Vybe Urgent Care contact point",
+        "telephone": "",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": [
+          "Arabic",
+          "English",
+          "Chinese",
+          "Dutch",
+          "French",
+          "German",
+          "Italian",
+          "Russian",
+          "Portuguese",
+          "Spanish"
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.vybe.care#website",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "publisher": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "@id": "https://www.vybe.care#searchaction",
+        "name": "Search",
+        "target": "https://www.vybe.care/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.vybe.care/locations/roxborough/#webpage",
+      "url": "https://www.vybe.care/locations/roxborough/",
+      "name": "Roxborough Urgent Care",
+      "description": "Vybe Urgent Care - Roxborough | 6060 Ridge Ave #100, Philadelphia, PA 19128",
+      "isPartOf": {
+        "@id": "https://www.vybe.care#website"
+      },
+      "about": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://www.vybe.care/locations/roxborough/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.vybe.care/locations/roxborough/#breadcrumb",
+      "url": "https://www.vybe.care/locations/roxborough/",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/locations/roxborough/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/locations/",
+          "item": "https://www.vybe.care/locations/",
+          "name": "Locations",
+          "position": 1
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/locations/roxborough/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/locations/roxborough/",
+          "item": "https://www.vybe.care/locations/roxborough/",
+          "name": "Roxborough",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://www.vybe.care/locations/roxborough/#medicalbusiness",
+      "url": "https://www.vybe.care/locations/roxborough/",
+      "name": " Roxborough, Vybe Urgent Care",
+      "telephone": "215-709-9418",
+      "parentOrganization": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "@id": "https://www.vybe.care/locations/roxborough/#postaladdress",
+        "url": "https://www.vybe.care/locations/roxborough/",
+        "name": "Roxborough",
+        "streetAddress": "6060 Ridge Ave #100",
+        "addressLocality": "Philadelphia",
+        "addressRegion": "PA",
+        "postalCode": "19128",
+        "addressCountry": "US"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "@id": "https://www.vybe.care/locations/roxborough/#place",
+        "url": "https://www.vybe.care/locations/roxborough/",
+        "name": "Roxborough"
+      }
+    }
+  ]
+}
