@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.vybe.care#organization",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.vybe.care#logo",
+        "name": "Vybe Urgent Care logo",
+        "url": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg",
+        "contentUrl": "https://www.vybe.care/wp-content/uploads/2022/05/vybe-logo-r-stacked-rgb-color.svg"
+      },
+      "sameAs": [
+        "https://www.facebook.com/vybecare/",
+        "https://www.instagram.com/vybecare/",
+        "https://www.linkedin.com/company/vybecare/",
+        "https://globalphiladelphia.org/organizations/vybe-urgent-care",
+        "https://www.healthgrades.com/group-directory/pa-pennsylvania/philadelphia/vybe-urgent-care-xyntlt"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "@id": "https://www.vybe.care#contactpoint",
+        "url": "https://www.vybe.care",
+        "name": "Vybe Urgent Care contact point",
+        "telephone": "",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": [
+          "Arabic",
+          "English",
+          "Chinese",
+          "Dutch",
+          "French",
+          "German",
+          "Italian",
+          "Russian",
+          "Portuguese",
+          "Spanish"
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.vybe.care#website",
+      "url": "https://www.vybe.care",
+      "name": "Vybe Urgent Care",
+      "publisher": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "@id": "https://www.vybe.care#searchaction",
+        "name": "Search",
+        "target": "https://www.vybe.care/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#webpage",
+      "url": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/",
+      "name": "4 Ways To Swim Safely",
+      "description": "4 Ways To Swim Safely | Vybe Urgent Care",
+      "isPartOf": {
+        "@id": "https://www.vybe.care#website"
+      },
+      "about": {
+        "@id": "https://www.vybe.care#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#breadcrumb",
+      "url": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/2019/",
+          "item": "https://www.vybe.care/2019/",
+          "name": "2019",
+          "position": 1
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/2019/july/",
+          "item": "https://www.vybe.care/2019/july/",
+          "name": "July",
+          "position": 2
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/2019/july/30/",
+          "item": "https://www.vybe.care/2019/july/30/",
+          "name": "30",
+          "position": 3
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#breadcrumb-listitem",
+          "url": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/",
+          "item": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/",
+          "name": "4 Ways To Swim Safely",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#blogposting",
+      "url": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/",
+      "name": "4 Ways To Swim Safely",
+      "headline": "4 Ways To Swim Safely",
+      "description": "4 Ways To Swim Safely | Vybe Urgent Care",
+      "mainEntityOfPage": {
+        "@id": "https://www.vybe.care/2019/july/30/4-ways-to-swim-safely/#webpage"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://www.vybe.care#organization",
+        "url": "https://www.vybe.care",
+        "name": "Vybe Urgent Care"
+      },
+      "publisher": {
+        "@id": "https://www.vybe.care#organization"
+      }
+    }
+  ]
+}
